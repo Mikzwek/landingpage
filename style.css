@@ -51,11 +51,17 @@ a {
 }
 
 .content1 {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    
+}
+
+.textos {
     display: flex;
     flex-direction: column;
-    align-items: start;
-    height: 300px;
-    
+    line-height: 1.2;
 }
 
 img { 
@@ -76,9 +82,9 @@ h1 {
 }
 
 .content1 img {
-    max-width: 150px;
-    max-height: auto;
-    align-self: flex-end;
+    max-width: auto;
+    max-height: 250px;
+    
 }
 
 h2 {
@@ -99,12 +105,12 @@ h2 {
 }
 
 .content2 img {
-    max-width: 250px;
+    max-width: 350px;
     max-height: 150px;
     border-style: solid;
     border-color: #3882f6;
     align-items: baseline;
-    
+    border-radius: 10px;
 }
 
 .content2 .cassio,
@@ -114,6 +120,7 @@ h2 {
     display: flex;
     flex-direction: column;
     gap:10px;    
+    
 }
 
 .content3 {
@@ -137,23 +144,45 @@ h2 {
 
 
 .content4 {
-    display: flex;
-    flex-direction: column;
-    background-color: #3882f6;
+   background-color: #3882f6;
     margin: 100px;
+    padding: 80px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    
 }
 
 button { 
     color: white;
     background-color: #3882f6;
+    padding: 10px;
+    align-self:flex-start ;
+    border-radius: 10px;
+}
+
+.downbutton {
+        align-self: flex-end;
+        border-color: white;
+        border-style: solid;
+}
+
+.content4-1 {
+    font-weight: bold;
+    font-size: x-large;
     
 }
 
-
-
-
-
-
+.footer {
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white
+}
 
 
 
